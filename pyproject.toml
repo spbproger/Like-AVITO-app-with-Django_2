@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "homework-28v2"
+version = "0.1.0"
+description = ""
+authors = ["spbproger <zemli2016@yandex.ru>"]
+readme = "README.md"
+packages = [{include = "homework_28v2"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+Django = "^4.1.2"
+psycopg2 = "^2.9.4"
+Pillow = "^9.2.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
